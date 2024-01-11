@@ -1,2 +1,2 @@
-FROM alpine
-CMD ["echo", "Hello original world!"]
+FROM ruby:2.1-onbuild
+CMD ["ruby", "-e 'puts \'hi\''"]
